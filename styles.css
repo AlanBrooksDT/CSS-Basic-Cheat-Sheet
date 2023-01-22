@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    background-color: orange;
+    color: blue;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.datatable {
+    width: 100;
+}
+
+.dataTable h2 {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid green;
+    border-spacing: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+thead tr {
+    background-color: lightgreen;
+}
+
+thead th {
+    padding: 10px;
+    border-right: 1.5px solid green;
+}
+
+tbody th, td {
+    border-top: 1.5px solid green;
+    border-right: 1.5px solid green;
+    padding: 10px;
+}
+footer {
+    padding: 10px;
+}

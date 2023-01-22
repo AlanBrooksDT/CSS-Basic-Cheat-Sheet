@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & HTML Cheatsheet</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS & HTML Cheat Sheet</h1>
+    </header>
+    <section class="dataTable">
+        <h2>CSS Selectors</H2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Selector</th>
+                    <th scope="col">Purpose</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">*</th>
+                    <td>Universal selector for all HTML elements</td>
+                </tr>
+                <tr>
+                    <th scope="row">p</th>
+                    <td>Selector for all paragraph elements</td>
+                </tr>
+                <tr>
+                    <th scope="row">.class</th>
+                    <td>Selector for element with class of 'class'</td>
+                </tr>
+                <tr>
+                    <th scope="row">#id</th>
+                    <td>Selector for element with id of 'id'</td>
+                </tr>
+                <tr>
+                    <th scope="row">p, h1, h2</th>
+                    <td>How to select multiple elements to apply the same style</td>
+                </tr>
+                <tr>
+                    <th scope="row">div p</th>
+                    <td>Descendant Combinator - Selector for any p elements within a div element</td>
+                </tr>
+                <tr>
+                    <th scope="row">div > p</th>
+                    <td>Child Combinator - Selector for any p element that is an immediate descendant of a div element</td>
+                </tr>
+                <tr>
+                    <th scope="row">div + p</th>
+                    <td>Selects the first p element that is an immediate sibling after a div element</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="dataTable">
+        <h2>CSS Color Types</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Example</th>
+                    <th scope="col">Color Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">color: red</th>
+                    <td>Using red which is one of the 147 'named' format colors available</td>
+                </tr>
+                <tr>
+                    <th scope="row">color: #FF0000</th>
+                    <td>Hexadecimal format for red</td>
+                </tr>
+                <tr>
+                    <th scope="row">color: rgb (255, 160, 122)</th>
+                    <td>rgb (red, green, blue) format for red</td>
+                </tr>
+                <tr>
+                    <th scope="row">color: hsl (0, 100%, 50%)</th>
+                    <td>hsl (hue, saturation, light) format for red</td>
+                </tr>
+                <tr>
+                    <th scope="row">rgba</th>
+                    <td>Adds the "alpha" number to rgb which allows setting of transparency. 0 = transparent, 1 opaque</td>
+                </tr>
+                <tr>
+                    <th scope="row">hsla</th>
+                    <td>Adds the "alpha" number to hsl which allows setting of transparency. 0 = transparent, 1 opaque</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
